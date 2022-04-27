@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github pages](https://your-live-site-url.com)
+- Live Site URL: [Github pages](https://claude1018.github.io/blogr-landing-page)
 
 ## My process
 
@@ -43,6 +43,7 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
+- [Sass](https://sass-lang.com/) - For styles
 
 ## Author
 
