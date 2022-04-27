@@ -1,0 +1,45 @@
+.menu
+  display: flex
+  justify-content: space-between
+  width: 100%
+  .nav-links
+    display: flex
+    flex-direction: row
+    gap: 2rem
+    align-items: center
+    justify-content: start
+    width: 100%
+    & a
+      color: #fff
+      &::after
+        content: url('../../../public/images/icon-arrow-light.svg')
+        margin-bottom: 0
+      &:hover
+        text-decoration: underline
+    & ul
+      position: absolute
+      top: 85%
+      width: 10.375rem
+      background: #fff
+      & li a
+        color: #6e7176
+        &:hover
+          color: #2a3642
+          text-decoration: none
+          font-weight: bold
+  
+  .account
+    display: flex
+    border: unset
+    flex-direction: row
+    gap: 2.5rem
+
+    & a
+      color: #fff
+    & button
+      color: hsl(353, 100%, 62%)
+      background: #fff
+      &:hover
+        background: hsl(355, 100%, 74%)
+        color: #fff
+  

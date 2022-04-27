@@ -1,0 +1,16 @@
+.container
+  font-family: 'Overpass'
+
+.icon 
+  &::after
+    content: url('../../../public/images/icon-arrow-dark.svg')
+    display: inline-block
+    margin-left: 0.625rem
+    text-align: center
+    transition: transform 0.4s ease-in-out 
+    margin-bottom: 1.2rem
+.rotate
+  &::after
+    transform: rotate(180deg)
+.hide
+  display: none

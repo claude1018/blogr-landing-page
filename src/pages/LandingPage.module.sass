@@ -1,0 +1,18 @@
+$topColor: hsla(13, 100%, 72%, 0.9)
+$bottomColor: hsla(353, 100%, 62%, 0.97)
+$footer: hsl(240, 10%, 16%)
+  
+.header
+  background: url('../../public/images/bg-pattern-intro-mobile.svg') no-repeat center, linear-gradient(to bottom right, $topColor, $bottomColor) 
+  border-bottom-left-radius: 6rem
+  @media screen and ( min-width:  1110px)
+  background: url('../../public/images/bg-pattern-intro-desktop.svg') no-repeat center, linear-gradient(to bottom right, $topColor, $bottomColor) 
+
+    
+
+.footer
+  text-align: center
+  background: $footer
+  border-top-right-radius: 6rem
+  
+    

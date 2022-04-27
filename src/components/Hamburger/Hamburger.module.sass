@@ -1,0 +1,30 @@
+.hamburgerContainer
+  pointer-events: none
+.hamburger
+  pointer-events: auto
+  cursor: pointer
+  display: block
+  height: 2.2px
+  width: 2rem
+  background: #fff
+  transition: all 0.4s ease-in-out
+
+  &::before, &::after
+    content: ''
+    @extend .hamburger
+
+.hamburger::before
+  transform: translateY(-8px)
+
+.hamburger::after
+  transform: translateY(5px)
+
+.hamburgerContainer .hamburger.open
+  transform: rotate(-45deg)
+  visibility: hidden
+  &::before
+    transform: rotate(0deg) translateY(-0.05px)
+    visibility: visible
+  &::after
+    transform: rotate(-90deg) translate(1.5px, 0px)
+    visibility: visible

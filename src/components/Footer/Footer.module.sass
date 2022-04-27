@@ -1,0 +1,28 @@
+.grid
+  display: grid
+  grid-template-areas: 'header' 'one' 'two' 'three'
+  justify-content: center
+  gap: 2rem
+  @media screen and ( min-width: 1110px )
+    grid-template-areas: 'header one two three'
+    justify-content: space-around
+    padding: 4.6875rem 0 2rem 0
+    
+.header
+  grid-area: header
+  padding: 3rem
+  margin-top: 1rem
+  @media screen and ( min-width: 1110px )
+    padding: 0
+    margin: 0
+    
+
+.one
+  grid-area: one
+
+.two
+
+  grid-area: two
+
+.three
+  grid-area: three
